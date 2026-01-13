@@ -14,7 +14,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// Only redirect to HTTPS in production
+if (app.Environment.IsProduction())
+{
+    app.UseHttpsRedirection();
+}
 
 var summaries = new[]
 {
