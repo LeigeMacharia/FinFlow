@@ -1,0 +1,61 @@
+q
+[200~# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.userosscache
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Environment variables
+.env
+.env.local
+appsettings.Development.json
+appsettings.Production.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend build
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Environment
+.env*.local
