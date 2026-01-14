@@ -20,20 +20,25 @@ A comprehensive full-stack financial management platform built with C# .NET and 
 ## Project Structure
 ```
 FinFlow/
-├── src/
-│   ├── FinFlow.Api/             # REST API
-│   ├── FinFlow.Core/            # Business logic
-│   └── FinFlow.Infrastructure/  # Data access
-├── tests/
-│   └── FinFlow.Tests/
-└── docs/
+├── docs
+├── FinFlow.sln
+├── README.md
+├── scripts
+├── src
+│   ├── FinFlow.Api/
+│   ├── FinFlow.Core/
+│   ├── FinFlow.Infrastructure/
+│   └── FinFlow.TestConsole/
+└── tests
+    └── FinFlow.Tests
+
 ```
 
 ## Setup Instructions
 
 ### Prerequisites
 - .NET 8 SDK
-- PostgreSQL 14+
+- PostgreSQL 16+
 - VS Code with C# Dev Kit
 
 ### Getting Started
@@ -64,7 +69,7 @@ dotnet run
 
 - [x] Development environment setup
 - [x] Project structure
-- [ ] Core domain models
+- [x] Core domain models
 - [ ] Database setup
 - [ ] API endpoints
 - [ ] Authentication
@@ -79,5 +84,4 @@ Building this as part of my journey into fintech development.
 **Target Completion:** April 1 2026
 
 ---
-
-⭐️ Follow my progress!
+** Follow my progress! **
