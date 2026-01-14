@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinFlow.Core", "src\FinFlow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinFlow.Infrastructure", "src\FinFlow.Infrastructure\FinFlow.Infrastructure.csproj", "{3BA598CB-EA41-4FF0-A6F2-F092FB7E2096}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinFlow.TestConsole", "src\FinFlow.TestConsole\FinFlow.TestConsole.csproj", "{2F92C08E-5D91-4846-9AB9-067B0AF3A05E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,10 +34,15 @@ Global
 		{3BA598CB-EA41-4FF0-A6F2-F092FB7E2096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BA598CB-EA41-4FF0-A6F2-F092FB7E2096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BA598CB-EA41-4FF0-A6F2-F092FB7E2096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F92C08E-5D91-4846-9AB9-067B0AF3A05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F92C08E-5D91-4846-9AB9-067B0AF3A05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F92C08E-5D91-4846-9AB9-067B0AF3A05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F92C08E-5D91-4846-9AB9-067B0AF3A05E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{74787089-046E-4722-9899-08852D37277C} = {63C58B84-5B2F-447E-938D-1421D5D2EC0C}
 		{15877999-5246-4F9A-BD46-02052FEF8702} = {63C58B84-5B2F-447E-938D-1421D5D2EC0C}
 		{3BA598CB-EA41-4FF0-A6F2-F092FB7E2096} = {63C58B84-5B2F-447E-938D-1421D5D2EC0C}
+		{2F92C08E-5D91-4846-9AB9-067B0AF3A05E} = {63C58B84-5B2F-447E-938D-1421D5D2EC0C}
 	EndGlobalSection
 EndGlobal
