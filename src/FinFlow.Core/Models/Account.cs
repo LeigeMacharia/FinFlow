@@ -1,4 +1,5 @@
 using System;
+using FinFlow.Core.Enums;
 
 namespace FinFlow.Core.Models
 {
@@ -12,7 +13,7 @@ namespace FinFlow.Core.Models
         public string? Name {get; set; }
 
         // Type of account - nullable for the same reason
-        public string? AccountType {get; set; }
+        public AccountType AccountType {get; set; }
 
         // Current balance in the account
         public decimal Balance {get; set; }
@@ -38,6 +39,7 @@ namespace FinFlow.Core.Models
             IsActive = true; // New accounts are active by default
             Balance = 0; // Start with zero balance
             Currency = "USD"; // Default to USD
+            AccountType = AccountType.Checking;
         }
 
         // Validates that the account has all required data
